@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Module id="${project.name}" class="edu.casetools.ocase.module.impl.OCaseModule" binaryversion="3.4.01" version="${project.version}" schema-level="2" uid="71925ca4-0b1d-473c-ae36-f45e0ae7f7b2">
+    <ClassPath>
+        <PathEntry path="lib/${project.artifactId}-${project.version}.jar"/>
+        <PathEntry path="lib/protege-3.5.jar"/>
+        <PathEntry path="lib/protege-owl.jar"/>
+        <PathEntry path="lib/jena-3.5.jar"/>
+        <PathEntry path="lib/slf4j-api-1.5.8.jar"/>
+        <PathEntry path="lib/slf4j-log4j12-1.5.8.jar"/>
+        <PathEntry path="lib/log4j-1.2.12.jar"/>
+        <PathEntry path="lib/xerces-impl.jar"/>
+        <PathEntry path="lib/iri-3.5.jar"/>
+        <PathEntry path="lib/icu4j-3.4.4.jar"/>
+        <PathEntry path="lib/rcase-0.0.1.jar"/>
+        <PathEntry path="lib/commons-lang3-3.1.jar"/>
+    </ClassPath>
+    <Profiles>
+        <Profile uid="c200af1e-324d-4ab2-800e-bea185deba0f" id="TestArchetypeProfile">
+            <MetaclassReference uid="2dcd4b3f-42d6-411f-a425-e13aa4eeee52" metaclass="ModelElement">
+                <TagTypes>
+                    <TagType name="TagName" uid="6493ab17-a213-4d47-98bd-0c42f5983abb" label="Name" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+        </Profile>
+    </Profiles>
+    <Gui>
+        <Commands>
+            <Command id="CreateOntology" label="%CreateOntology.label" tooltip="%CreateOntology.tooltip" image="%CreateOntology.image" group="" modify-model="true" group-image="">
+                <Scope metaclass="ModelTree"/>
+                <Handler class="edu.casetools.ocase.modelio.menu.CreateOntologyFile"/>
+            </Command>
+        </Commands>
+        <Tools/>
+        <ContextualMenu>
+            <CommandRef refid="CreateOntology"/>
+        </ContextualMenu>
+        <Diagrams/>
+        <Views/>
+    </Gui>
+    <Dependencies/>
+</Module>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/main/conf/lib/protege-owl.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/jena-3.5.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/protege-3.5.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/xerces-impl.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/iri-3.5.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/icu4j-3.4.4.jar"/>
+	<classpathentry kind="lib" path="src/main/conf/lib/rcase-0.0.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
