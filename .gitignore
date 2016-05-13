@@ -1,0 +1,5 @@
+ocase/target/
+ocase/src/test
+ocase/.settings
+/sonar-project.properties
+/.sonar/
