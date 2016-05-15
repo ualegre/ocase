@@ -63,8 +63,8 @@ public class OntologyManager {
 	    ArrayList<MObject> contextualEntities = (ArrayList<MObject>) OntologiesUtils.getInstance()
 		    .getContextualEntities();
 
-	    for (MObject contextualEntity : contextualEntities) {
-		jModel.createOWLNamedClass(contextualEntity.getName().replaceAll("\\s+", ""));
+	    for (MObject SituationalParameter : contextualEntities) {
+		jModel.createOWLNamedClass(SituationalParameter.getName().replaceAll("\\s+", ""));
 	    }
 
 	    jModel.save(selectedFile.toURI(), FileUtils.langXMLAbbrev, errors);

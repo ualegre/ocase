@@ -75,7 +75,7 @@ public class OntologiesUtils {
     public List<MObject> getContextualEntities() {
 	List<MObject> list = new ArrayList<>();
 	list = OntologiesUtils.getInstance().getAllElementsStereotypedAs(list,
-		RCaseStereotypes.STEREOTYPE_CONTEXTUAL_ENTITY);
+		RCaseStereotypes.STEREOTYPE_SITUATIONAL_PARAMETER);
 	return list;
     }
 
