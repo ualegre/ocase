@@ -7,8 +7,9 @@ OCase is a module for [Modelio](https://www.modelio.org/) that generates automat
 * [Version 0.0.1](https://github.com/casetools/ocase)
 * Other Versions
 
-### Third party libraries
+### Third party libraries and icons
 * see [LIBRARIES](https://github.com/casetools/ocase/blob/master/LIBRARIES.md) files
+* Icons are made by Freepik from [Flaticon] (www.flaticon.com) 
 
 ## License 
 * see [LICENSE](https://github.com/casetools/ocase/blob/master/LICENSE.md) file
