@@ -4,20 +4,21 @@ OCase is a module for [Modelio](https://www.modelio.org/) that generates automat
  systems development) context dependency diagrams.  
  
 ## Download
-* [Version 0.0.1](https://github.com/casetools/ocase)
+* [Version 0.1.0](https://github.com/casetools/ocase)
 * Other Versions
 
-### Third party libraries
-* see [LIBRARIES](https://github.com/username/sw-name/blob/master/LIBRARIES.md) files
+### Third party libraries and icons
+* see [LIBRARIES](https://github.com/casetools/ocase/blob/master/LIBRARIES.md) files
+* Icons are made by Freepik from [Flaticon] (www.flaticon.com) 
 
 ## License 
-* see [LICENSE](https://github.com/username/sw-name/blob/master/LICENSE.md) file
+* see [LICENSE](https://github.com/casetools/ocase/blob/master/LICENSE.md) file
 
 ## Version 
-* Version 0.0.1
+* Version 0.1.0
 
 ## How-to use this code
-* see [INSTRUCTIONS](https://github.com/username/sw-name/blob/master/INSTRUCTIONS.md) file
+* see [INSTRUCTIONS](https://github.com/casetools/ocase/blob/master/INSTRUCTIONS.md) file
 
 #### Developer Contact
 * author: Unai Alegre-Ibarra

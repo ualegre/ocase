@@ -4,7 +4,7 @@
  * This file is part of OCASE (Ontologies for Context-Aware Systems Engineering), a module 
  * of Modelio that helps the automatic generation of ontologies based on the Situational 
  * Parameters gathered during the requirements elicitation phase of a Context-Aware System (C-AS),
- *  using R-CASE (Requirements for Context-Aware Systems Engineering) tool. 
+ *  using RCASE (Requirements for Context-Aware Systems Engineering) tool. 
  * 
  * OCASE is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -75,7 +75,7 @@ public class OntologiesUtils {
     public List<MObject> getContextualEntities() {
 	List<MObject> list = new ArrayList<>();
 	list = OntologiesUtils.getInstance().getAllElementsStereotypedAs(list,
-		RCaseStereotypes.STEREOTYPE_CONTEXTUAL_ENTITY);
+		RCaseStereotypes.STEREOTYPE_SITUATIONAL_PARAMETER);
 	return list;
     }
 
