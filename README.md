@@ -4,7 +4,7 @@ OCase is a module for [Modelio](https://www.modelio.org/) that generates automat
  systems development) context dependency diagrams.  
  
 ## Download
-* [Version 0.1.0](https://github.com/casetools/ocase)
+* [Version 0.2.0](https://github.com/casetools/ocase)
 * Other Versions
 
 ### Third party libraries and icons
@@ -15,7 +15,7 @@ OCase is a module for [Modelio](https://www.modelio.org/) that generates automat
 * see [LICENSE](https://github.com/casetools/ocase/blob/master/LICENSE.md) file
 
 ## Version 
-* Version 0.1.0
+* Version 0.2.0
 
 ## How-to use this code
 * see [INSTRUCTIONS](https://github.com/casetools/ocase/blob/master/INSTRUCTIONS.md) file

@@ -25,7 +25,7 @@ package edu.casetools.ocase.modelio.menu;
 import java.util.List;
 
 import org.modelio.api.module.IModule;
-import org.modelio.api.module.commands.DefaultModuleCommandHandler;
+import org.modelio.api.module.command.DefaultModuleCommandHandler;
 import org.modelio.vcore.smkernel.mapi.MObject;
 
 import edu.casetools.ocase.extensions.ontologies.OntologyFileDialog;

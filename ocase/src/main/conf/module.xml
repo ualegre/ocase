@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Module id="${project.name}" class="edu.casetools.ocase.module.impl.OCaseModule" binaryversion="3.4.01" version="${project.version}" schema-level="2" uid="71925ca4-0b1d-473c-ae36-f45e0ae7f7b2">
+<Module id="${project.name}" class="edu.casetools.ocase.module.impl.OCaseModule" binaryversion="3.5.00" version="${project.version}" schema-level="2" uid="05b69f78-e023-40c5-a39f-68ad705c26df">
     <ClassPath>
         <PathEntry path="lib/${project.artifactId}-${project.version}.jar"/>
         <PathEntry path="lib/protege-3.5.jar"/>
@@ -11,7 +11,7 @@
         <PathEntry path="lib/xerces-impl.jar"/>
         <PathEntry path="lib/iri-3.5.jar"/>
         <PathEntry path="lib/icu4j-3.4.4.jar"/>
-        <PathEntry path="lib/rcase-0.0.1.jar"/>
+        <PathEntry path="lib/rcase-0.2.0.jar"/>
         <PathEntry path="lib/commons-lang3-3.1.jar"/>
     </ClassPath>
     <Profiles>

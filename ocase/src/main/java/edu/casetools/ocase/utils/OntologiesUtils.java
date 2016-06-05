@@ -25,7 +25,7 @@ package edu.casetools.ocase.utils;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.modelio.api.model.IModelingSession;
+import org.modelio.api.modelio.model.IModelingSession;
 import org.modelio.api.modelio.Modelio;
 import org.modelio.metamodel.mda.Project;
 import org.modelio.metamodel.uml.infrastructure.ModelElement;
