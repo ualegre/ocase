@@ -1,4 +1,10 @@
-ocase/target/
+ocase/target/antrun
+ocase/target/archive-tmp
+ocase/target/classes
+ocase/target/lib
+ocase/target/maven-archiver
+ocase/target/test-classes
+ocase/target/*.jar
 ocase/src/test
 ocase/.settings
 /sonar-project.properties
