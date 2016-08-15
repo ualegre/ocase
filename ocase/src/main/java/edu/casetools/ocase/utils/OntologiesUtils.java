@@ -25,8 +25,8 @@ package edu.casetools.ocase.utils;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.modelio.api.modelio.model.IModelingSession;
 import org.modelio.api.modelio.Modelio;
+import org.modelio.api.modelio.model.IModelingSession;
 import org.modelio.metamodel.mda.Project;
 import org.modelio.metamodel.uml.infrastructure.ModelElement;
 import org.modelio.metamodel.uml.statik.GeneralClass;
@@ -75,7 +75,7 @@ public class OntologiesUtils {
     public List<MObject> getContextualEntities() {
 	List<MObject> list = new ArrayList<>();
 	list = OntologiesUtils.getInstance().getAllElementsStereotypedAs(list,
-		RCaseStereotypes.STEREOTYPE_SITUATIONAL_PARAMETER);
+		RCaseStereotypes.STEREOTYPE_CONTEXT_ATTRIBUTE);
 	return list;
     }
 

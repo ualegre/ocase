@@ -5,14 +5,14 @@
         <PathEntry path="lib/protege-3.5.jar"/>
         <PathEntry path="lib/protege-owl.jar"/>
         <PathEntry path="lib/jena-3.5.jar"/>
-        <PathEntry path="lib/slf4j-api-1.5.8.jar"/>
-        <PathEntry path="lib/slf4j-log4j12-1.5.8.jar"/>
-        <PathEntry path="lib/log4j-1.2.12.jar"/>
         <PathEntry path="lib/xerces-impl.jar"/>
         <PathEntry path="lib/iri-3.5.jar"/>
         <PathEntry path="lib/icu4j-3.4.4.jar"/>
-        <PathEntry path="lib/rcase-0.2.0.jar"/>
         <PathEntry path="lib/commons-lang3-3.1.jar"/>
+        <PathEntry path="lib/log4j-1.2.12.jar"/>
+        <PathEntry path="lib/slf4j-api-1.5.8.jar"/>
+        <PathEntry path="lib/slf4j-log4j12-1.5.8.jar"/>
+        <PathEntry path="lib/rcase-0.2.4.jar"/>
     </ClassPath>
     <Profiles>
         <Profile uid="c200af1e-324d-4ab2-800e-bea185deba0f" id="TestArchetypeProfile">

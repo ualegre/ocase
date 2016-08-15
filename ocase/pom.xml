@@ -6,7 +6,7 @@
 	<!-- definition -->
 	<groupId>edu.casetools</groupId>
 	<artifactId>ocase</artifactId>
-	<version>0.2.1</version>
+	<version>0.2.2</version>
 
 	<name>OCase</name>
 
@@ -16,6 +16,10 @@
 			<id>modelio</id>
 			<url>http://repository.modelio.org</url>
 		</repository>
+		 <repository>        
+            <id>rcase</id>
+            <url>https://github.com/ualegre/rcase/</url>
+    	</repository>		
 	</repositories>
 
 	<pluginRepositories>
@@ -45,7 +49,32 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.1</version>
+		</dependency>	
+		
+		<dependency>
+		    <groupId>log4j</groupId>
+		    <artifactId>log4j</artifactId>
+		    <version>1.2.12</version>
 		</dependency>
+
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-api</artifactId>
+		    <version>1.5.8</version>
+		</dependency>	
+		
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-log4j12</artifactId>
+		    <version>1.5.8</version>
+		</dependency>	
+		
+		<dependency>       
+           <groupId>edu.casetools</groupId>
+           <artifactId>rcase</artifactId>
+           <version>0.2.4</version>
+           <scope>compile</scope>
+    	</dependency>
 	</dependencies>
 
 
