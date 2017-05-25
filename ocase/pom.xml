@@ -6,7 +6,7 @@
 	<!-- definition -->
 	<groupId>edu.casetools</groupId>
 	<artifactId>ocase</artifactId>
-	<version>0.2.2</version>
+	<version>0.2.3</version>
 
 	<name>OCase</name>
 
@@ -16,10 +16,10 @@
 			<id>modelio</id>
 			<url>http://repository.modelio.org</url>
 		</repository>
-		 <repository>        
-            <id>rcase</id>
-            <url>https://github.com/ualegre/rcase/</url>
-    	</repository>		
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>	
 	</repositories>
 
 	<pluginRepositories>
@@ -69,12 +69,12 @@
 		    <version>1.5.8</version>
 		</dependency>	
 		
-		<dependency>       
-           <groupId>edu.casetools</groupId>
-           <artifactId>rcase</artifactId>
-           <version>0.2.4</version>
-           <scope>compile</scope>
-    	</dependency>
+		<dependency>
+		    <groupId>com.github.ualegre</groupId>
+		    <artifactId>rcase</artifactId>
+		    <version>v0.2.6</version>
+		</dependency>
+		
 	</dependencies>
 
 
